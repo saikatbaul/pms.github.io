@@ -1,0 +1,42 @@
+html{
+	background: url('../Picture/img.png') no-repeat center center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+}
+body{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: sans-serif;
+}
+.forgetpass{
+	text-underline-position: none;
+}
+.error{
+	color: red;
+}
+.success{
+	color: blue;
+}
+a{
+	text-decoration: none;
+	background-color: rgba();
+	padding: 5px 10px;
+	border-radius: 25px;
+}
+a:link{
+	color: green;
+}
+a:visited{
+	color: red;
+}
+a:hover{
+	color: white;
+	background-color: #5094f2;
+}
+a:active{
+	color: yellow;
+}
+
