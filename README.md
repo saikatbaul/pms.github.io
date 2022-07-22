@@ -24,11 +24,12 @@ This is the client side of the PMS site.
 <p align="center">  
     <img src="SS/StoreOfficer_Login.jpg" width="400" height="350">
 </p>
-
+<p align="center">
 | Parameter           | Input Type  | Description  |
 | ------------------- | ----------- | ------------ |
 | User_Name           | text        | It is a mandatory field. |
 | Password            | password    | It is a mandatory field. |
+</p>
 
 ## Forget Password Page
 
@@ -50,7 +51,7 @@ This is the client side of the PMS site.
 | ------------------- | ----------- | ------------ |
 | Profile_Picture     | file        | It is a mandatory field. Image size must be less than 4mb and only JPG, JPEG & PNG files are allowed. |
 
-# Change Password Page
+## Change Password Page
 
 <p align="center">
     <img src="SS/Change_Password.jpg" width="450" height="450">
