@@ -4,7 +4,7 @@ This is the client side of the PMS site.
 
 ### Registration Page
 
-<img src="SS/StoreOfficer_Registration.jpg" width="400" height="600">
+<img src="SS/StoreOfficer_Registration.jpg" width="400" height="650">
 
 | Parameter          | Input Type  | Description  |
 | ------------------ | ----------- | ------------ |
@@ -24,7 +24,7 @@ This is the client side of the PMS site.
 
 ### Login Page
 
-<img src="SS/StoreOfficer_Login.jpg" width="300" height="200">
+<img src="SS/StoreOfficer_Login.jpg" width="300" height="300">
 
 | Parameter          | Input Type  | Description  |
 | ------------------ | ----------- | ------------ |
@@ -33,7 +33,7 @@ This is the client side of the PMS site.
 
 ### Forget Password Page
 
-<img src="SS/Forget_Password.jpg" width="300" height="200">
+<img src="SS/Forget_Password.jpg" width="300" height="250">
 
 | Parameter          | Input Type  | Description  |
 | ------------------ | ----------- | ------------ |
