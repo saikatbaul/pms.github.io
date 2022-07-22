@@ -24,12 +24,11 @@ This is the client side of the PMS site.
 <p align="center">  
     <img src="SS/StoreOfficer_Login.jpg" width="400" height="350">
 </p>
-<p align="center">
+
 | Parameter           | Input Type  | Description  |
 | ------------------- | ----------- | ------------ |
 | User_Name           | text        | It is a mandatory field. |
 | Password            | password    | It is a mandatory field. |
-</p>
 
 ## Forget Password Page
 
@@ -62,3 +61,15 @@ This is the client side of the PMS site.
 | Current_Password    | password    | It is a mandatory field. It need to match with the password stored in database.|
 | New_Password        | password    | It is a mandatory field. Password  must contain atleast 8 charecters.|
 | Retype_New_Password | password    | It is a mandatory field. New password and retype new passward need to be same |
+
+## Registration Page
+
+<p align="center"> 
+    <img src="SS/Add_Med.jpg" width="500" height="700">
+</p>
+
+| Parameter           | Input Type  | Description  |
+| ------------------- | ----------- | ------------ |
+| Medicine_Name       | text        | It is a mandatory field. Only A-Z, a-z, 0-9, +, *, Dash(-) and Period( ) are allowed. |
+| Price_Per_Piece     | text        | It is a mandatory field. Only 0-9 is allowed. |
+| Quantity            | text        | It is a mandatory field. Only 0-9 is allowed. |

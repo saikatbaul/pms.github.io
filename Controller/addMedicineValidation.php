@@ -13,7 +13,7 @@ if (isset($_POST['submit']))
 	else 
 	{
 		$medicineName = $_POST["medicineName"];
-		if (preg_match("/^[a-z0-9+* -]*$/",$medicineName)) 
+		if (preg_match("/^[A-Za-z0-9+* -]*$/",$medicineName)) 
 		{
 			require_once '../Model/connectionDb.php';
 			$conn = db_conn();
