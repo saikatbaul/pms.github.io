@@ -8,7 +8,7 @@ This is the client side of the PMS site.
     <img src="SS/StoreOfficer_Registration.jpg" width="500" height="700">
 </p>
 
-| Parameter           | Input Type  | Description  |
+| Parameter           | Input_Type  | Description  |
 | ------------------- | ----------- | ------------ |
 | Name                | text        | It is a mandatory field. Must be 2 words and only A-Z, a-z, Dash(-) and Period( ) are allowed. |
 | Email               | text        | It is a mandatory field. Must be a valid email and user cannot use same email to open different account. |
@@ -25,7 +25,7 @@ This is the client side of the PMS site.
     <img src="SS/StoreOfficer_Login.jpg" width="400" height="350">
 </p>
 
-| Parameter           | Input Type  | Description  |
+| Parameter           | Input_Type  | Description  |
 | ------------------- | ----------- | ------------ |
 | User_Name           | text        | It is a mandatory field. It need to match with any user name in the database. |
 | Password            | password    | It is a mandatory field. It need to match with that user name's password in the database.|
@@ -36,7 +36,7 @@ This is the client side of the PMS site.
     <img src="SS/Forget_Password.jpg" width="300" height="250">
 </p>
 
-| Parameter           | Input Type  | Description  |
+| Parameter           | Input_Type  | Description  |
 | ------------------- | ----------- | ------------ |
 | Email               | text        | It is a mandatory field. It need to match with any email in the database. |
 
@@ -46,7 +46,7 @@ This is the client side of the PMS site.
     <img src="SS/Edit_Profile.jpg" width="500" height="550">
 </p>
 
-| Parameter           | Input Type  | Description  |
+| Parameter           | Input_Type  | Description  |
 | ------------------- | ----------- | ------------ |
 | Name                | text        | It is a mandatory field. Must be 2 words and only A-Z, a-z, Dash(-) and Period( ) are allowed. |
 | Email               | text        | It is a mandatory field. Must be a valid email and user cannot use same email to open different account. |
@@ -60,7 +60,7 @@ This is the client side of the PMS site.
     <img src="SS/Change_PP.jpg" width="450" height="350">
 </p>
 
-| Parameter           | Input Type  | Description  |
+| Parameter           | Input_Type  | Description  |
 | ------------------- | ----------- | ------------ |
 | Profile_Picture     | file        | It is a mandatory field. Image size must be less than 4mb and only JPG, JPEG & PNG files are allowed. |
 
@@ -70,7 +70,7 @@ This is the client side of the PMS site.
     <img src="SS/Change_Password.jpg" width="450" height="450">
 </p>
 
-| Parameter           | Input Type  | Description  |
+| Parameter           | Input_Type  | Description  |
 | ------------------- | ----------- | ------------ |
 | Current_Password    | password    | It is a mandatory field. It need to match with the password stored in database.|
 | New_Password        | password    | It is a mandatory field. Password  must contain atleast 8 charecters.|
@@ -82,7 +82,7 @@ This is the client side of the PMS site.
     <img src="SS/Add_Med.jpg" width="450" height="450">
 </p>
 
-| Parameter           | Input Type  | Description  |
+| Parameter           | Input_Type  | Description  |
 | ------------------- | ----------- | ------------ |
 | Medicine_Name       | text        | It is a mandatory field. Only A-Z, a-z, 0-9, +, *, Dash(-) and Period( ) are allowed. |
 | Price_Per_Piece     | text        | It is a mandatory field. Only 0-9 is allowed. |
@@ -94,7 +94,7 @@ This is the client side of the PMS site.
     <img src="SS/Edit_Medicine.jpg" width="450" height="450">
 </p>
 
-| Parameter           | Input Type  | Description  |
+| Parameter           | Input_Type  | Description  |
 | ------------------- | ----------- | ------------ |
 | Medicine_Name       | text        | It is a mandatory field. Only A-Z, a-z, 0-9, +, *, Dash(-) and Period( ) are allowed. |
 | Price_Per_Piece     | text        | It is a mandatory field. Only 0-9 is allowed. |
