@@ -44,7 +44,7 @@ This is the client side of the PMS site.
 
 # Change Password Page
 
-<img src="SS/Change_Password.jpg" width="450" height="450" allign="middle">
+<img src="SS/Change_Password.jpg" width="450" height="450" align="middle">
 
 | Parameter           | Input Type  | Description  |
 | ------------------- | ----------- | ------------ |
