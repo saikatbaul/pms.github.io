@@ -1,8 +1,8 @@
-## Documentation for Pharmacy Management System
+# Documentation for Pharmacy Management System
 
 This is the client side of the PMS site.
 
-### Registration Page
+## Registration Page
 
 <img src="SS/StoreOfficer_Registration.jpg" width="400" height="650">
 
@@ -22,7 +22,7 @@ This is the client side of the PMS site.
 - After successful User can login using provided UserName and Password.
 - User will be able to update those information.
 
-### Login Page
+## Login Page
 
 <img src="SS/StoreOfficer_Login.jpg" width="300" height="300">
 
@@ -31,7 +31,7 @@ This is the client side of the PMS site.
 | User Name          | text        | It is a mandatory field. |
 | Password           | password    | It is a mandatory field. |
 
-### Forget Password Page
+## Forget Password Page
 
 <img src="SS/Forget_Password.jpg" width="300" height="250">
 
@@ -39,8 +39,10 @@ This is the client side of the PMS site.
 | ------------------ | ----------- | ------------ |
 | Email              | text        | It is a mandatory field. Must be a valid email. |
 
-<img src="SS/Change_PP.jpg" width="400" height="450">
+## Change Profile Picture Page
+
+<img src="SS/Change_PP.jpg" width="400" height="400">
 
 | Parameter          | Input Type  | Description  |
 | ------------------ | ----------- | ------------ |
-| Email              | file        | It is a mandatory field. Image size must be less than 4mb and only JPG, JPEG & PNG files are allowed. |
+| Profile Picture    | file        | It is a mandatory field. Image size must be less than 4mb and only JPG, JPEG & PNG files are allowed. |
