@@ -38,3 +38,9 @@ This is the client side of the PMS site.
 | Parameter          | Input Type  | Description  |
 | ------------------ | ----------- | ------------ |
 | Email              | text        | It is a mandatory field. Must be a valid email. |
+
+<img src="SS/Change_PP.jpg" width="400" height="450">
+
+| Parameter          | Input Type  | Description  |
+| ------------------ | ----------- | ------------ |
+| Email              | file        | It is a mandatory field. Image size must be less than 4mb and only JPG, JPEG & PNG files are allowed. |
