@@ -1,12 +1,11 @@
 ## Documentation for Pharmacy Management System
 
-This is the client side of the PMS site where customers can view and order medicine.
+This is the client side of the PMS site.
 
-### Registration Page (Store Officer)
+### Registration Page
 
 <img src="SS/StoreOfficer_Registration.jpg" width="900" height="700">
 
-<!-- Tables -->
 | Parameter          | Input Type  | Description  |
 | ------------------ | ----------- | ------------ |
 | Name               | text        | It is a mandatory field. Must be 2 words and only A-Z, a-z, Dash(-) and Period( ) are allowed. |
@@ -18,6 +17,24 @@ This is the client side of the PMS site where customers can view and order medic
 | Phone Number       | text        | It is a mandatory field. Only 0-9 is allowed and length must be exact 11. |
 | Date of Birth      | date        | It is a mandatory field. |
 
-- Store Officer can register to the system by providing these information.
-- After successful registration store officer can login using provided UserName and Password.
-- Store officer will be able to update those information.
+
+- User can register to the system by providing these information.
+- After successful User can login using provided UserName and Password.
+- User will be able to update those information.
+
+### Login Page
+
+<img src="SS/StoreOfficer_Login.jpg" width="900" height="700">
+
+| Parameter          | Input Type  | Description  |
+| ------------------ | ----------- | ------------ |
+| User Name          | text        | It is a mandatory field. |
+| Password           | password    | It is a mandatory field. |
+
+### Forget Password Page
+
+<img src="SS/Forget_Password.jpg" width="900" height="700">
+
+| Parameter          | Input Type  | Description  |
+| ------------------ | ----------- | ------------ |
+| Email              | text        | It is a mandatory field. Must be a valid email. |
