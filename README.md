@@ -40,6 +40,20 @@ This is the client side of the PMS site.
 | ------------------- | ----------- | ------------ |
 | Email               | text        | It is a mandatory field. It need to match with any email in database. |
 
+## Edit Profile Page
+
+<p align="center"> 
+    <img src="SS/Edit_Profile.jpg" width="500" height="550">
+</p>
+
+| Parameter           | Input Type  | Description  |
+| ------------------- | ----------- | ------------ |
+| Name                | text        | It is a mandatory field. Must be 2 words and only A-Z, a-z, Dash(-) and Period( ) are allowed. |
+| Email               | text        | It is a mandatory field. Must be a valid email and user cannot use same email to open different account. |
+| Gender              | radio       | It is a mandatory field. |
+| Phone_Number        | text        | It is a mandatory field. Only 0-9 is allowed and length must be exact 11. |
+| Date_of_Birth       | date        | It is a mandatory field. |
+
 ## Change Profile Picture Page
 
 <p align="center">
