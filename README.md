@@ -27,8 +27,8 @@ This is the client side of the PMS site.
 
 | Parameter           | Input Type  | Description  |
 | ------------------- | ----------- | ------------ |
-| User_Name           | text        | It is a mandatory field. |
-| Password            | password    | It is a mandatory field. |
+| User_Name           | text        | It is a mandatory field. It need to match with any user name in the database. |
+| Password            | password    | It is a mandatory field. It need to match with that user name's password in the database.|
 
 ## Forget Password Page
 
@@ -38,7 +38,7 @@ This is the client side of the PMS site.
 
 | Parameter           | Input Type  | Description  |
 | ------------------- | ----------- | ------------ |
-| Email               | text        | It is a mandatory field. It need to match with any email in database. |
+| Email               | text        | It is a mandatory field. It need to match with any email in the database. |
 
 ## Edit Profile Page
 
