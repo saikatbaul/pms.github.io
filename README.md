@@ -62,10 +62,10 @@ This is the client side of the PMS site.
 | New_Password        | password    | It is a mandatory field. Password  must contain atleast 8 charecters.|
 | Retype_New_Password | password    | It is a mandatory field. New password and retype new passward need to be same |
 
-## Registration Page
+## Add New Medicine Page
 
 <p align="center"> 
-    <img src="SS/Add_Med.jpg" width="500" height="700">
+    <img src="SS/Add_Med.jpg" width="450" height="450">
 </p>
 
 | Parameter           | Input Type  | Description  |
