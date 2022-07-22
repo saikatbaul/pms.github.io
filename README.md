@@ -1,8 +1,9 @@
-# Documentation for Pharmacy Management System
+# Documentation 
+# Pharmacy Management System
 
-This is the client side of the PMS site.
+<p align="center"> **This is the client side of the Pharmachy Management System site.** </p>
 
-## Registration Page
+# Registration Page
 
 <p align="center"> 
     <img src="SS/StoreOfficer_Registration.jpg" width="500" height="700">
@@ -19,7 +20,7 @@ This is the client side of the PMS site.
 | Phone_Number        | text        | It is a mandatory field. Only 0-9 is allowed and length must be exact 11. |
 | Date_of_Birth       | date        | It is a mandatory field. |
 
-## Login Page
+# Login Page
 
 <p align="center">  
     <img src="SS/StoreOfficer_Login.jpg" width="400" height="350">
@@ -30,7 +31,7 @@ This is the client side of the PMS site.
 | User_Name           | text        | It is a mandatory field. It need to match with any user name in the database. |
 | Password            | password    | It is a mandatory field. It need to match with that user name's password in the database.|
 
-## Forget Password Page
+# Forget Password Page
 
 <p align="center">
     <img src="SS/Forget_Password.jpg" width="300" height="250">
@@ -40,7 +41,7 @@ This is the client side of the PMS site.
 | ------------------- | ----------- | ------------ |
 | Email               | text        | It is a mandatory field. It need to match with any email in the database. |
 
-## Edit Profile Page
+# Edit Profile Page
 
 <p align="center"> 
     <img src="SS/Edit_Profile.jpg" width="500" height="550">
@@ -54,7 +55,7 @@ This is the client side of the PMS site.
 | Phone_Number        | text        | It is a mandatory field. Only 0-9 is allowed and length must be exact 11. |
 | Date_of_Birth       | date        | It is a mandatory field. |
 
-## Change Profile Picture Page
+# Change Profile Picture Page
 
 <p align="center">
     <img src="SS/Change_PP.jpg" width="450" height="350">
@@ -64,7 +65,7 @@ This is the client side of the PMS site.
 | ------------------- | ----------- | ------------ |
 | Profile_Picture     | file        | It is a mandatory field. Image size must be less than 4mb and only JPG, JPEG & PNG files are allowed. |
 
-## Change Password Page
+# Change Password Page
 
 <p align="center">
     <img src="SS/Change_Password.jpg" width="450" height="450">
@@ -76,7 +77,7 @@ This is the client side of the PMS site.
 | New_Password        | password    | It is a mandatory field. Password  must contain atleast 8 charecters.|
 | Retype_New_Password | password    | It is a mandatory field. New password and retype new passward need to be same |
 
-## Add New Medicine Page
+# Add New Medicine Page
 
 <p align="center"> 
     <img src="SS/Add_Med.jpg" width="450" height="450">
@@ -88,7 +89,7 @@ This is the client side of the PMS site.
 | Price_Per_Piece     | text        | It is a mandatory field. Only 0-9 is allowed. |
 | Quantity            | text        | It is a mandatory field. Only 0-9 is allowed. |
 
-## Edit Medicine Page
+# Edit Medicine Page
 
 <p align="center"> 
     <img src="SS/Edit_Medicine.jpg" width="450" height="450">
