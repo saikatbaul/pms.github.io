@@ -87,3 +87,15 @@ This is the client side of the PMS site.
 | Medicine_Name       | text        | It is a mandatory field. Only A-Z, a-z, 0-9, +, *, Dash(-) and Period( ) are allowed. |
 | Price_Per_Piece     | text        | It is a mandatory field. Only 0-9 is allowed. |
 | Quantity            | text        | It is a mandatory field. Only 0-9 is allowed. |
+
+## Edit Medicine Page
+
+<p align="center"> 
+    <img src="SS/Edit_Medicine.jpg" width="450" height="450">
+</p>
+
+| Parameter           | Input Type  | Description  |
+| ------------------- | ----------- | ------------ |
+| Medicine_Name       | text        | It is a mandatory field. Only A-Z, a-z, 0-9, +, *, Dash(-) and Period( ) are allowed. |
+| Price_Per_Piece     | text        | It is a mandatory field. Only 0-9 is allowed. |
+| Quantity            | text        | It is a mandatory field. Only 0-9 is allowed. |
