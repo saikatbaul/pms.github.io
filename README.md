@@ -1,5 +1,4 @@
-# Documentation 
-# Pharmacy Management System
+# Documentation For Pharmacy Management System
 
 <p align="center"> **This is the client side of the Pharmachy Management System site.** </p>
 
