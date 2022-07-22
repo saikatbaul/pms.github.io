@@ -6,7 +6,6 @@ This is the client side of the PMS site where customers can view and order medic
 
 <img src="SS/StoreOfficer_Registration.jpg" width="900" height="700">
 
-<!-- Tables -->
 | Parameter          | Input Type  | Description  |
 | ------------------ | ----------- | ------------ |
 | Name               | text        | It is a mandatory field. Must be 2 words and only A-Z, a-z, Dash(-) and Period( ) are allowed. |
