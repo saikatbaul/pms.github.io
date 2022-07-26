@@ -14,13 +14,13 @@ Our project is about Pharmacy management system (PMS). The Pharmacy Management S
 * Scopes
   * Profile Management
   Features:
-      * Store officers and customers can create new profiles with valid information.
-b)	All users can login with a valid username and password.
-c)	After successful login all users can view their dashboard.
-d)	All users can view their own profile details.
-e)	All users can update their information with valid information.
-f)	All users can change their password.
-g)	All users can recover password after verification.
+  > Store officers and customers can create new profiles with valid information.
+  > All users can login with a valid username and password.
+  > After successful login all users can view their dashboard.
+  > All users can view their own profile details.
+  > All users can update their information with valid information.
+  > All users can change their password.
+  > All users can recover password after verification.
 
 2)	User Management
 Features:
