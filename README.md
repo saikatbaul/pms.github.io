@@ -8,10 +8,11 @@
     <img src="SS/StoreOfficer_Registration.jpg" width="500" height="700">
 </p>
 
-| Method              | post        |              |
+| Method              | post        | 0            |
 
 | ------------------- | ----------- | ------------ |
 | Parameter           | Input_Type  | Description  |
+| ------------------- | ----------- | ------------ |
 | Name                | text        | It is a mandatory field. Must be 2 words and only A-Z, a-z, Dash(-) and Period( ) are allowed. |
 | Email               | text        | It is a mandatory field. Must be a valid email and user cannot use same email to open different account. |
 | User_Name           | text        | It is a mandatory field. Only a-z, 0-9, Dash(-) and Period( ) are allowed and user cannot use same username to open different account. |
