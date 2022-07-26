@@ -8,6 +8,10 @@
     <img src="SS/StoreOfficer_Registration.jpg" width="500" height="700">
 </p>
 
+```
+Method: Post
+```
+
 | Parameter           | Input_Type  | Description  |
 | ------------------- | ----------- | ------------ |
 | Name                | text        | It is a mandatory field. Must be 2 words and only A-Z, a-z, Dash(-) and Period( ) are allowed. |
@@ -76,10 +80,10 @@ if (isset($_POST['submit']))
 			}
 			else
 			{
-				setcookie ("uname",$_POST["uname"],time() + 86400*30);
-				setcookie ("password",$_POST["password"],time() + 86400*30);
+				setcookie ("uname",$_POST["uname"],time() + 86400*30); //Set Cookie for 30 days
+				setcookie ("password",$_POST["password"],time() + 86400*30); //Set Cookie for 30 days
 			} 
-			header("location:Dashboard.php");
+			header("location:Dashboard.php"); //Destination Page
 		}
 		else
 		{
@@ -97,6 +101,10 @@ if (isset($_POST['submit']))
     <img src="SS/Forget_Password.jpg" width="300" height="250">
 </p>
 
+```
+Method: Post
+```
+
 | Parameter           | Input_Type  | Description  |
 | ------------------- | ----------- | ------------ |
 | Email               | text        | It is a mandatory field. It need to match with any email in the database. |
@@ -106,6 +114,10 @@ if (isset($_POST['submit']))
 <p align="center"> 
     <img src="SS/Edit_Profile.jpg" width="500" height="550">
 </p>
+
+```
+Method: Post
+```
 
 | Parameter           | Input_Type  | Description  |
 | ------------------- | ----------- | ------------ |
@@ -121,11 +133,19 @@ if (isset($_POST['submit']))
     <img src="SS/Change_PP.jpg" width="450" height="350">
 </p>
 
+```
+Method: Post
+```
+
 | Parameter           | Input_Type  | Description  |
 | ------------------- | ----------- | ------------ |
 | Profile_Picture     | file        | It is a mandatory field. Image size must be less than 4mb and only JPG, JPEG & PNG files are allowed. |
 
 # Change Password Page
+
+```
+Method: Post
+```
 
 <p align="center">
     <img src="SS/Change_Password.jpg" width="450" height="450">
@@ -138,6 +158,10 @@ if (isset($_POST['submit']))
 | Retype_New_Password | password    | It is a mandatory field. New password and retype new passward need to be same |
 
 # Add New Medicine Page
+
+```
+Method: Post
+```
 
 <p align="center"> 
     <img src="SS/Add_Med.jpg" width="450" height="450">
