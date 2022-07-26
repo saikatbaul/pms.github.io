@@ -6,13 +6,13 @@
 
 Our project is about Pharmacy management system (PMS). The Pharmacy Management System is a system that aims to increase the efficiency of medical pharmacies by digitalizing their operations. It is a web-based Medicine business delivery system. This makes it easier for pharmacies to arrange, maintain and secure medication information. Its functions assist in the solution of manual pharmacy management problems. Customers can easily find their necessary medicines by using this system. Customers can easily order medicines from home. By using this system, pharmacy staff will take the orders. They will take the necessary steps to ensure that the buyer receives the product while sitting at home. A Pharmacy Management System is used to keep track of all medicine supplies. It controls and maintains the pharmacy team in order to create good working relationships and outputs. This can also greatly increase client satisfaction while also protecting medications from expiring. The pharmacy management system is developed to improve pharmacy quality, safety and performance. It is a computer-based system to store vital information and improves the efficiency of medical shops. The main objective of the Pharmacy Management System is to monitor the information for the Medicine supplies, Inventory, Sales. It records every aspect of this pharmacy. Billing, stock management, inventory records, customer administration are the key features of this program.
 
-2.1	Users
-1)	Store Officer
-2)	Staff
-3)	Delivery Man
-4)	Customers
-2.2	Scopes
-1)	Profile Management
+*	Users
+**	Store Officer
+**	Staff
+**	Delivery Man
+**	Customers
+*	Scopes
+**	Profile Management
 Features:
 a)	Store officers and customers can create new profiles with valid information.
 b)	All users can login with a valid username and password.
