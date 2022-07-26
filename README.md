@@ -8,6 +8,9 @@
     <img src="SS/StoreOfficer_Registration.jpg" width="500" height="700">
 </p>
 
+| Method              | post        |
+| ------------------- | ----------- |
+
 | Parameter           | Input_Type  | Description  |
 | ------------------- | ----------- | ------------ |
 | Name                | text        | It is a mandatory field. Must be 2 words and only A-Z, a-z, Dash(-) and Period( ) are allowed. |
