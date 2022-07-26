@@ -8,13 +8,13 @@ Our project is about Pharmacy management system (PMS). The Pharmacy Management S
 
 * Users
   * Store Officer
-**	Staff
-**	Delivery Man
-**	Customers
-*	Scopes
-**	Profile Management
-Features:
-a)	Store officers and customers can create new profiles with valid information.
+  * Staff
+  * Delivery Man
+  *	Customers
+* Scopes
+  * Profile Management
+  Features:
+      * Store officers and customers can create new profiles with valid information.
 b)	All users can login with a valid username and password.
 c)	After successful login all users can view their dashboard.
 d)	All users can view their own profile details.
