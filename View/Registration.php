@@ -114,7 +114,7 @@
 	</script>
 </head>
 <body>
-	<div class="header">
+	<div class="header"> <!-- Page Header  -->
 		<?php 
 		include 'Head.php';
 		require '../Controller/RegistrationValidation.php';
@@ -183,7 +183,7 @@
 		</p>
 </form>
 
-<div class="footer">
+<div class="footer"> <!-- Page Footer  -->
 	<?php include 'Foot.php';?><br>
 </div>
 </body>

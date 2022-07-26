@@ -8,8 +8,9 @@
     <img src="SS/StoreOfficer_Registration.jpg" width="500" height="700">
 </p>
 
-| Method              | post        | 0            |
-| ------------------- | ----------- | ------------ |
+```
+Method = Post
+```
 
 | Parameter           | Input_Type  | Description  |
 | ------------------- | ----------- | ------------ |
