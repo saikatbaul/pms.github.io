@@ -25,29 +25,25 @@ Our project is about Pharmacy management system (PMS). The Pharmacy Management S
     * Store officers can remove staff and delivery man.
     * Store officers can view customer list.
 
-3)	Medicine Management
-Features:
-a)	Store officers and staff can add new medicine to the inventory.
-b)	Store officers, staff and customers can perform search operations on medicines.
-c)	Store officers, staff and customers can view the full medicine list.
-d)	Store officers and staff can update medicine information.
-e)	Store officers can remove medicine from inventory.
+  * Medicine Management Features:
+    * Store officers and staff can add new medicine to the inventory.
+    * Store officers, staff and customers can perform search operations on medicines.
+    * Store officers, staff and customers can view the full medicine list.
+    * Store officers and staff can update medicine information.
+    * Store officers can remove medicine from inventory.
 
-4)	Order Management
-Features:
-a)	Customers can add medicine to the cart.
-b)	Customers can place an order. Status: Pending Order
-c)	After successful payment the status changes automatically. Status: Paid Pending Order
-d)	Staff can view all paid pending orders.
-e)	Staff packs order and notify delivery man by clicking notify button. Status: Shipping Order
-f)	After delivery, delivery man changes order status to proceed order by clicking proceed button. Status: Proceed Order
+  * Order Management Features:
+    * Customers can add medicine to the cart.
+    * Customers can place an order. Status: Pending Order
+    * After successful payment the status changes automatically. Status: Paid Pending Order
+    * Staff can view all paid pending orders.
+    * Staff packs order and notify delivery man by clicking notify button. Status: Shipping Order
+    * After delivery, delivery man changes order status to proceed order by clicking proceed button. Status: Proceed Order
 
-5)	Sales Management
-Features:
-a)	Store Officers can view all sales (monthly, yearly).
-b)	Store Officers can view net profit.
-c)	Staff and delivery man can view their individual sales. 
-
+  * Sales Management Features:
+    * Store Officers can view all sales (monthly, yearly).
+    * Store Officers can view net profit.
+    * Staff and delivery man can view their individual sales. 
 
 # Registration Page
 
