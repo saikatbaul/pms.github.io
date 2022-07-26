@@ -34,6 +34,8 @@ Method: Post
 | User_Name           | text        | It is a mandatory field. It need to match with any user name in the database. |
 | Password            | password    | It is a mandatory field. It need to match with that user name's password in the database.|
 
+### PHP Validation of Login Page
+
 ```php
 <?php
 $error = $count = "";
