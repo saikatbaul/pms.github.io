@@ -25,6 +25,10 @@
     <img src="SS/StoreOfficer_Login.jpg" width="400" height="350">
 </p>
 
+```
+Method: Post
+```
+
 | Parameter           | Input_Type  | Description  |
 | ------------------- | ----------- | ------------ |
 | User_Name           | text        | It is a mandatory field. It need to match with any user name in the database. |
