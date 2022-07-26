@@ -38,63 +38,6 @@ Method: Post
 | User_Name           | text        | It is a mandatory field. It need to match with any user name in the database. |
 | Password            | password    | It is a mandatory field. It need to match with that user name's password in the database.|
 
-### PHP Validation of Login Page
-
-```php
-<?php
-$error = $count = "";
-if (isset($_POST['submit']))
-{
-	if (empty($_POST["uname"]) || empty($_POST["password"])) 
-	{
-		$error = "Both username and password required";
-	} 
-	else 
-	{
-		$uname = $_POST['uname'];
-		$password = $_POST['password'];
-		require_once '../Model/connectionDb.php';
-		$conn = db_conn();
-	    $selectQuery = "SELECT * FROM `storeofficer` WHERE uname = :uname AND password = :password";
-	    try
-	    {
-	        $stmt = $conn->prepare($selectQuery);
-	        $stmt->execute([
-	            ':uname' => $uname,
-	            ':password' => $password
-	        ]);
-	    }
-	    catch(PDOException $e)
-	    {
-	        echo $e->getMessage();
-	    }
-	    $count = $stmt->rowCount();
-	    if($count == 1)
-		{
-			$_SESSION['uname'] = $uname;
-			$_SESSION['password'] = $password;
-			if(empty($_POST["remindMe"]))
-			{
-				setcookie("uname","");
-				setcookie("password","");
-			}
-			else
-			{
-				setcookie ("uname",$_POST["uname"],time() + 86400*30); //Set Cookie for 30 days
-				setcookie ("password",$_POST["password"],time() + 86400*30); //Set Cookie for 30 days
-			} 
-			header("location:Dashboard.php"); //Destination Page
-		}
-		else
-		{
-			$error = "Invalid";
-		}
-	}
-}
-?>
-```
-
-
 # Forget Password Page
 
 <p align="center">
