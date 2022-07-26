@@ -2,6 +2,55 @@
 
 <p align="center"> **This is the client side of the Pharmachy Management System site.** </p>
 
+# Overview
+
+Our project is about Pharmacy management system (PMS). The Pharmacy Management System is a system that aims to increase the efficiency of medical pharmacies by digitalizing their operations. It is a web-based Medicine business delivery system. This makes it easier for pharmacies to arrange, maintain and secure medication information. Its functions assist in the solution of manual pharmacy management problems. Customers can easily find their necessary medicines by using this system. Customers can easily order medicines from home. By using this system, pharmacy staff will take the orders. They will take the necessary steps to ensure that the buyer receives the product while sitting at home. A Pharmacy Management System is used to keep track of all medicine supplies. It controls and maintains the pharmacy team in order to create good working relationships and outputs. This can also greatly increase client satisfaction while also protecting medications from expiring. The pharmacy management system is developed to improve pharmacy quality, safety and performance. It is a computer-based system to store vital information and improves the efficiency of medical shops. The main objective of the Pharmacy Management System is to monitor the information for the Medicine supplies, Inventory, Sales. It records every aspect of this pharmacy. Billing, stock management, inventory records, customer administration are the key features of this program.
+
+2.1	Users
+1)	Store Officer
+2)	Staff
+3)	Delivery Man
+4)	Customers
+2.2	Scopes
+1)	Profile Management
+Features:
+a)	Store officers and customers can create new profiles with valid information.
+b)	All users can login with a valid username and password.
+c)	After successful login all users can view their dashboard.
+d)	All users can view their own profile details.
+e)	All users can update their information with valid information.
+f)	All users can change their password.
+g)	All users can recover password after verification.
+
+2)	User Management
+Features:
+a)	Store officers can remove staff and delivery man.
+b)	Store officers can view customer list.
+
+3)	Medicine Management
+Features:
+a)	Store officers and staff can add new medicine to the inventory.
+b)	Store officers, staff and customers can perform search operations on medicines.
+c)	Store officers, staff and customers can view the full medicine list.
+d)	Store officers and staff can update medicine information.
+e)	Store officers can remove medicine from inventory.
+
+4)	Order Management
+Features:
+a)	Customers can add medicine to the cart.
+b)	Customers can place an order. Status: Pending Order
+c)	After successful payment the status changes automatically. Status: Paid Pending Order
+d)	Staff can view all paid pending orders.
+e)	Staff packs order and notify delivery man by clicking notify button. Status: Shipping Order
+f)	After delivery, delivery man changes order status to proceed order by clicking proceed button. Status: Proceed Order
+
+5)	Sales Management
+Features:
+a)	Store Officers can view all sales (monthly, yearly).
+b)	Store Officers can view net profit.
+c)	Staff and delivery man can view their individual sales. 
+
+
 # Registration Page
 
 <p align="center"> 
