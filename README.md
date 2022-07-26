@@ -86,13 +86,13 @@ Method: Post
 
 # Change Password Page
 
-```
-Method: Post
-```
-
 <p align="center">
     <img src="SS/Change_Password.jpg" width="450" height="450">
 </p>
+
+```
+Method: Post
+```
 
 | Parameter           | Input_Type  | Description  |
 | ------------------- | ----------- | ------------ |
@@ -102,13 +102,13 @@ Method: Post
 
 # Add New Medicine Page
 
-```
-Method: Post
-```
-
 <p align="center"> 
     <img src="SS/Add_Med.jpg" width="450" height="450">
 </p>
+
+```
+Method: Post
+```
 
 | Parameter           | Input_Type  | Description  |
 | ------------------- | ----------- | ------------ |
@@ -121,6 +121,10 @@ Method: Post
 <p align="center"> 
     <img src="SS/Edit_Medicine.jpg" width="450" height="450">
 </p>
+
+```
+Method: Post
+```
 
 | Parameter           | Input_Type  | Description  |
 | ------------------- | ----------- | ------------ |
