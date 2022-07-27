@@ -66,7 +66,7 @@ Method: Post
 | Phone_Number        | text        | It is a mandatory field. Only 0-9 is allowed and length must be exact 11. |
 | Date_of_Birth       | date        | It is a mandatory field. |
 
-<a><button name="button" style = "color: red" onclick="View\Registration.php">View File</button></a>
+<a><button name="button" style = "color: blue" onclick="View/Registration.php">View File</button></a>
 
 ## Login Page
 
