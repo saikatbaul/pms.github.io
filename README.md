@@ -43,7 +43,7 @@ The Pharmacy Management System is a system that aims to increase the efficiency 
     * Store Officers can view net profit.
     * Staff and delivery man can view their individual sales. 
 
-**This is the client side of the Pharmachy Management System site.**
+**This is the client side of the Pharmacy Management System site.**
 
 ## Registration Page
 
@@ -80,8 +80,8 @@ Method: Post
 
 | Parameter           | Input_Type  | Description  |
 | ------------------- | ----------- | ------------ |
-| User_Name           | text        | It is a mandatory field. It need to match with any user name in the database. |
-| Password            | password    | It is a mandatory field. It need to match with that user name's password in the database.|
+| User_Name           | text        | It is a mandatory field. It needs to match with any user name in the database. |
+| Password            | password    | It is a mandatory field. It needs to match with that user name's password in the database.|
 
 [View File](View/Login.php) [Controller File](Controller/LoginValidation.php)
 
@@ -143,8 +143,8 @@ Method: Post
 
 | Parameter           | Input_Type  | Description  |
 | ------------------- | ----------- | ------------ |
-| Current_Password    | password    | It is a mandatory field. It need to match with the password stored in database.|
-| New_Password        | password    | It is a mandatory field. Password  must contain atleast 8 charecters.|
+| Current_Password    | password    | It is a mandatory field. It needs to match with the password stored in database.|
+| New_Password        | password    | It is a mandatory field. Password must contain atleast 8 charecters.|
 | Retype_New_Password | password    | It is a mandatory field. New password and retype new passward need to be same |
 
 ## Add New Medicine Page
