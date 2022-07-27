@@ -99,6 +99,8 @@ Method: Post
 | ------------------- | ----------- | ------------ |
 | Email               | text        | It is a mandatory field. It need to match with any email in the database. |
 
+[View File](View/ForgetPassword.php) [Controller File](Controller/ForgetPasswordValidation.php)
+
 ## Edit Profile Page
 
 <p align="center"> 
@@ -117,6 +119,8 @@ Method: Post
 | Phone_Number        | text        | It is a mandatory field. Only 0-9 is allowed and length must be exact 11. |
 | Date_of_Birth       | date        | It is a mandatory field. |
 
+[View File](View/EditProfile.php)  [Model File](Model/modelStoreOfficer.php) [Controller File](Controller/ForgetPasswordValidation.php)
+
 ## Change Profile Picture Page
 
 <p align="center">
@@ -130,6 +134,8 @@ Method: Post
 | Parameter           | Input_Type  | Description  |
 | ------------------- | ----------- | ------------ |
 | Profile_Picture     | file        | It is a mandatory field. Image size must be less than 4mb and only JPG, JPEG & PNG files are allowed. |
+
+[View File](View/ChangeProfilePicture.php)  [Model File](Model/modelStoreOfficer.php)  [Controller File](Controller/ForgetPasswordValidation.php)
 
 ## Change Password Page
 
@@ -146,6 +152,8 @@ Method: Post
 | Current_Password    | password    | It is a mandatory field. It needs to match with the password stored in database.|
 | New_Password        | password    | It is a mandatory field. Password must contain atleast 8 charecters.|
 | Retype_New_Password | password    | It is a mandatory field. New password and retype new passward need to be same |
+
+[View File](View/ChangePassword.php)  [Model File](Model/modelStoreOfficer.php)  [Controller File](Controller/ChangePasswordValidation.php)
 
 ## Add New Medicine Page
 
