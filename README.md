@@ -67,7 +67,7 @@ Method: Post
 | Date_of_Birth       | date        | It is a mandatory field. |
 
 > :Buttons
-> > :Button label=View File, url=View/Registration.php
+> > :Button label=View File, url="View/Registration.php"
 
 ## Login Page
 
