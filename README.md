@@ -66,7 +66,7 @@ Method: Post
 | Phone_Number        | text        | It is a mandatory field. Only 0-9 is allowed and length must be exact 11. |
 | Date_of_Birth       | date        | It is a mandatory field. |
 
-[View File](View/Registration.php) [Model File](Model\modelStoreOfficer.php) [Controller File](Controller\RegistrationValidation.php)
+[View File](View/Registration.php) [Model File](Model/modelStoreOfficer.php) [Controller File](Controller/RegistrationValidation.php)
 
 ## Login Page
 
