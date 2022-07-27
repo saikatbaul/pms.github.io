@@ -83,6 +83,8 @@ Method: Post
 | User_Name           | text        | It is a mandatory field. It need to match with any user name in the database. |
 | Password            | password    | It is a mandatory field. It need to match with that user name's password in the database.|
 
+[View File](View/Login.php) [Controller File](Controller/LoginValidation.php)
+
 ## Forget Password Page
 
 <p align="center">
